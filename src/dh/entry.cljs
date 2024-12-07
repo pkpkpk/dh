@@ -1,6 +1,7 @@
 (ns dh.entry
   (:require [datahike.array]
             [datahike.datom :as datom]
+            [datahike.index]
             [datahike.index.interface]
             [datahike.index.persistent-set :as pss]
             [datahike.index.utils]
@@ -27,17 +28,17 @@
 ;src/datahike/readers.cljc
 ;src/datahike/schema.cljc
 ;src/datahike/schema_cache.cljc
-;src/datahike/store.cljc
 ;src/datahike/writer.cljc
 ;src/datahike/writing.cljc
 ;test/datahike/test/gc_test.cljc
-#!-IN-PROGRESS -----------------------------------------------
-;src/datahike/index.cljc
-#! DONE -------------------------------------------------------
+#!- IN-PROGRESS ---------------------------------
+;src/datahike/store.cljc
+#!- DONE ----------------------------------------
 ;deps.edn
 ;shadow-cljs.edn
 ;src/datahike/array.cljc
 ;src/datahike/datom.cljc
+;src/datahike/index.cljc
 ;src/datahike/index/interface.cljc
 ;src/datahike/index/persistent-set.cljc
 ;src/datahike/index/utils.cljc
