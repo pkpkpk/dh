@@ -5,7 +5,9 @@
             [datahike.index.interface]
             [datahike.index.persistent-set :as pss]
             [datahike.index.utils]
-            [datahike.tools]))
+            [datahike.store]
+            [datahike.tools]
+            [datahike-node]))
 
 (defn -main [] (js/console.log "entry start"))
 
