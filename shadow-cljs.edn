@@ -1,0 +1,12 @@
+{:deps true
+ :src-paths ["src"
+             "../replikativ/datahike/src"
+             "../replikativ/datahike/test"]
+ :builds {:dev
+          {:target :node-script
+           :output-to "dh.js"
+           :output-dir "."
+           :main dh.entry/-main
+
+           :devtools {:reload-strategy :recompile-dependents}
+           :compiler-options {:infer-externs true}}}}
