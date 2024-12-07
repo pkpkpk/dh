@@ -7,6 +7,6 @@
            :output-to "dh.js"
            :output-dir "."
            :main dh.entry/-main
-
            :devtools {:reload-strategy :recompile-dependents}
-           :compiler-options {:infer-externs true}}}}
+           :compiler-options {:infer-externs true
+                              :warnings {:fn-deprecated false}}}}}
