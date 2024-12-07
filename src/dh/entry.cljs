@@ -1,7 +1,9 @@
 (ns dh.entry
-  (:require [datahike.datom :as datom]
+  (:require [datahike.array]
+            [datahike.datom :as datom]
             [datahike.index.interface]
             [datahike.index.persistent-set :as pss]
+            [datahike.index.utils]
             [datahike.tools]))
 
 (defn -main [] (js/console.log "entry start"))
@@ -10,7 +12,7 @@
 ;src/datahike/api.cljc
 ;src/datahike/api/macros.clj
 ;src/datahike/api/specification.cljc
-;src/datahike/array.cljc
+
 ;src/datahike/cli.clj
 ;src/datahike/config.cljc
 ;src/datahike/connector.cljc
@@ -29,12 +31,15 @@
 ;src/datahike/writer.cljc
 ;src/datahike/writing.cljc
 ;test/datahike/test/gc_test.cljc
+#!-IN-PROGRESS -----------------------------------------------
 ;src/datahike/index.cljc
 #! DONE -------------------------------------------------------
 ;deps.edn
 ;shadow-cljs.edn
+;src/datahike/array.cljc
 ;src/datahike/datom.cljc
 ;src/datahike/index/interface.cljc
 ;src/datahike/index/persistent-set.cljc
+;src/datahike/index/utils.cljc
 ;src/datahike/tools.cljc
 
