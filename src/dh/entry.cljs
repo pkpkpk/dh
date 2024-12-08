@@ -15,12 +15,12 @@
             datahike.index.utils
             datahike.lru
             datahike.pull-api
+            datahike.query
             datahike.schema
             datahike.schema-cache
             datahike.store
             datahike.tools
-            ;datahike.writing
-            datahike.query
+            datahike.writing
             datahike-node))
 
-(defn -main [] (js/console.log "entry start"))
+(defn -main [] (js/console.log "dh.entry/-main"))
