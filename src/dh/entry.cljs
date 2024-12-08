@@ -1,6 +1,6 @@
 (ns dh.entry
   (:require [datahike.array]
-            ;[datahike.config]
+            [datahike.config]
             [datahike.datom :as datom]
             [datahike.index]
             [datahike.index.interface]
@@ -33,16 +33,16 @@
 ;src/datahike/writing.cljc
 ;test/datahike/test/gc_test.cljc
 #!- IN-PROGRESS ---------------------------------
-;src/datahike/store.cljc
-;src/datahike/config.cljc
 #!- DONE ----------------------------------------
 ;deps.edn
 ;shadow-cljs.edn
 ;src/datahike/array.cljc
+;src/datahike/config.cljc
 ;src/datahike/datom.cljc
 ;src/datahike/index.cljc
 ;src/datahike/index/interface.cljc
 ;src/datahike/index/persistent-set.cljc
 ;src/datahike/index/utils.cljc
+;src/datahike/store.cljc
 ;src/datahike/tools.cljc
 
