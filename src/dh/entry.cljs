@@ -2,10 +2,12 @@
   (:require datahike.array
             datahike.config
             datahike.datom
+            datahike.db
             datahike.db.interface
-            ;datahike.db.search
+            datahike.db.search
             datahike.db.transaction
             datahike.db.utils
+            datahike.db.search
             datahike.index
             datahike.index.interface
             datahike.index.persistent-set
@@ -35,23 +37,6 @@
 ;src/datahike/writer.cljc
 ;src/datahike/writing.cljc
 ;test/datahike/test/gc_test.cljc
-;src/datahike/db/search.cljc
 #!- IN-PROGRESS ---------------------------------
-;src/datahike/db/transaction.cljc
+
 #!- DONE ----------------------------------------
-;deps.edn
-;shadow-cljs.edn
-;src/datahike/array.cljc
-;src/datahike/config.cljc
-;src/datahike/datom.cljc
-;src/datahike/index.cljc
-;src/datahike/index/interface.cljc
-;src/datahike/index/persistent-set.cljc
-;src/datahike/index/utils.cljc
-;src/datahike/schema.cljc
-;src/datahike/schema_cache.cljc
-;src/datahike/store.cljc
-;src/datahike/tools.cljc
-;src/datahike/db/interface.cljc
-;src/datahike/db/utils.cljc
-;src/datahike/lru.cljc
