@@ -8,6 +8,7 @@
             datahike.db.search
             datahike.db.transaction
             datahike.db.utils
+            datahike.gc
             datahike.impl.entity
             datahike.index
             datahike.index.interface
@@ -21,6 +22,7 @@
             datahike.store
             datahike.tools
             datahike.writing
+            datahike.writer
             datahike-node))
 
 (defn -main [] (js/console.log "dh.entry/-main"))
