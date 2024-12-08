@@ -4,11 +4,13 @@
             datahike.datom
             ;datahike.db.interface
             ;datahike.db.transaction
-            datahike.db.utils
+            ;datahike.db.utils
             datahike.index
             datahike.index.interface
             datahike.index.persistent-set
             datahike.index.utils
+            datahike.schema
+            datahike.schema-cache
             datahike.store
             datahike.tools
             ;datahike.writing
@@ -29,15 +31,15 @@
 ;src/datahike/middleware/utils.cljc
 ;src/datahike/pull_api.cljc
 ;src/datahike/readers.cljc
-;src/datahike/schema.cljc
-;src/datahike/schema_cache.cljc
+
 ;src/datahike/writer.cljc
 ;src/datahike/writing.cljc
 ;test/datahike/test/gc_test.cljc
 ;src/datahike/db/search.cljc
 ;src/datahike/db/transaction.cljc
-#!- IN-PROGRESS ---------------------------------
 ;src/datahike/db/utils.cljc
+#!- IN-PROGRESS ---------------------------------
+;src/datahike/schema.cljc
 #!- DONE ----------------------------------------
 ;deps.edn
 ;shadow-cljs.edn
@@ -48,6 +50,7 @@
 ;src/datahike/index/interface.cljc
 ;src/datahike/index/persistent-set.cljc
 ;src/datahike/index/utils.cljc
+;src/datahike/schema_cache.cljc
 ;src/datahike/store.cljc
 ;src/datahike/tools.cljc
 
