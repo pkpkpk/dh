@@ -2,4 +2,6 @@
  :deps {org.clojure/clojurescript {:mvn/version "1.11.132"}
         thheller/shadow-cljs      {:mvn/version "2.28.20"}
         io.replikativ/datahike    {:local/root "../../replikativ/datahike"}
+        io.replikativ/kabel       {:local/root "../../replikativ/kabel"}
+        io.replikativ/konserve    {:local/root "../../replikativ/konserve"}
         pkpkpk/datahike-node      {:local/root "../datahike-node"}}}

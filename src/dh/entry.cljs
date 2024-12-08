@@ -1,13 +1,17 @@
 (ns dh.entry
-  (:require [datahike.array]
-            [datahike.config]
-            [datahike.datom :as datom]
-            [datahike.index]
-            [datahike.index.interface]
-            [datahike.index.persistent-set :as pss]
-            [datahike.index.utils]
-            [datahike.store]
-            [datahike.tools]
+  (:require datahike.array
+            datahike.config
+            datahike.datom
+            ;datahike.db.interface
+            ;datahike.db.transaction
+            datahike.db.utils
+            datahike.index
+            datahike.index.interface
+            datahike.index.persistent-set
+            datahike.index.utils
+            datahike.store
+            datahike.tools
+            ;datahike.writing
             [datahike-node]))
 
 (defn -main [] (js/console.log "entry start"))
@@ -18,8 +22,6 @@
 ;src/datahike/api/specification.cljc
 ;src/datahike/cli.clj
 ;src/datahike/connector.cljc
-;src/datahike/db/search.cljc
-;src/datahike/db/transaction.cljc
 ;src/datahike/experimental/gc.cljc
 ;src/datahike/experimental/versioning.cljc
 ;src/datahike/impl/entity.cljc
@@ -32,7 +34,10 @@
 ;src/datahike/writer.cljc
 ;src/datahike/writing.cljc
 ;test/datahike/test/gc_test.cljc
+;src/datahike/db/search.cljc
+;src/datahike/db/transaction.cljc
 #!- IN-PROGRESS ---------------------------------
+;src/datahike/db/utils.cljc
 #!- DONE ----------------------------------------
 ;deps.edn
 ;shadow-cljs.edn
