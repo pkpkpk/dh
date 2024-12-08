@@ -20,6 +20,7 @@
             datahike.store
             datahike.tools
             ;datahike.writing
+            datahike.query
             datahike-node))
 
 (defn -main [] (js/console.log "entry start"))
