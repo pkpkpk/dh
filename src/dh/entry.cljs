@@ -20,6 +20,7 @@
             datahike.index.interface
             datahike.index.persistent-set
             datahike.index.utils
+            datahike.integration-test
             ;datahike.json
             datahike.lru
             datahike.middleware.utils
