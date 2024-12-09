@@ -1,5 +1,5 @@
 (ns dh.entry
-  (:require datahike.api
+  (:require [datahike.api :as d]
             datahike.api.impl
             datahike.api.specification
             datahike.array
@@ -39,6 +39,11 @@
             datahike-node))
 
 (defn -main [] (js/console.log "dh.entry/-main"))
+
+;(def cfg {:store {:backend :file :path "/tmp/example"}})
+
+(def cfg {:store {:backend :mem :id "entry"}})
+
 
 ;;TODO some protocols (in DB + connector) are extended to cljs PersistentArrayMaps...there are other kinds!
 
