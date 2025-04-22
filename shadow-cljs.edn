@@ -9,4 +9,5 @@
            :main dh.entry/-main
            :devtools {:reload-strategy :recompile-dependents}
            :compiler-options {:infer-externs true
-                              :warnings {:fn-deprecated false}}}}}
+                              :warnings {:fn-deprecated false
+                                         :protocol-multiple-impls false}}}}}

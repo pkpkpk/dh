@@ -1,5 +1,5 @@
 (ns dh.entry
-  (:require [datahike.api :as d]
+  #_(:require [datahike.api :as d]
             datahike.api.impl
             datahike.api.specification
             datahike.array
@@ -36,7 +36,8 @@
             datahike.tools
             datahike.writing
             datahike.writer
-            datahike-node))
+            datahike-node)
+  )
 
 (defn -main [] (js/console.log "dh.entry/-main"))
 
